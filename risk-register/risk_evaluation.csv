@@ -1,0 +1,77 @@
+Step 3: Risk Evaluation,,,,,
+Step 3.2: Risk Evaluation,,,,,
+Supporting Asset,Threat,Vulnerability,"Reviewed Impact
+(from step 2.1)","Likelihood
+(from step 2.2)","Risk Level
+(from Table 3.1)"
+Temenos T24 Core Banking,TS-01 Ransomware,High (4),4,4,High
+,TS-09 CVE Exploit,High (4),5,4,Critical
+,TS-15 Internal Fraud,Medium (3),3,3,Medium
+Internet Banking Application,TS-03 SQL Injection,Medium (3),4,3,High
+,TS-07 DDoS,Medium (3),3,3,Medium
+,TS-02 Phishing/BEC,High (4),4,3,High
+Mobile Banking App (iOS/Android),TS-07 DDoS,Medium (3),3,3,Medium
+,TS-12 SIM Swap,Medium (3),3,3,Medium
+,TS-13 API Stuffing,Medium (3),4,3,High
+SWIFT Alliance Access,TS-04 SWIFT Fraud,Very Low (1),3,3,Medium
+,TS-05 Supply Chain,Low (2),3,3,Medium
+,TS-14 HSM Compromise,Low (2),4,3,High
+Active Directory / IAM,TS-02 Phishing/BEC,High (4),4,4,High
+,TS-04 SWIFT Fraud,High (4),5,4,Critical
+,TS-06 Insider Exfil,High (4),5,4,Critical
+On-premises Data Centre (Milan),TS-01 Ransomware,REMOVED — Duplicate kill chain,,,
+On-premises Data Centre (Milan),TS-10 Physical,Medium (3),4,3,High
+,TS-05 Supply Chain,Medium (3),4,3,High
+Azure Cloud Environment,TS-08 Cloud Misconf,Medium (3),3,3,Medium
+,TS-05 Supply Chain,Medium (3),3,3,Medium
+,TS-06 Insider Exfil,Medium (3),4,3,High
+Network Infrastructure (LAN/WAN/VPN),TS-05 Supply Chain,Medium (3),4,3,High
+,TS-07 DDoS,Medium (3),3,3,Medium
+,TS-10 Physical,Medium (3),3,3,Medium
+Backup and DR Systems,TS-01 Ransomware,Medium (3),5,4,Critical
+,TS-05 Supply Chain,Medium (3),4,3,High
+,TS-06 Insider Exfil,Medium (3),3,3,Medium
+SOC/SIEM (IBM QRadar — external),TS-05 Supply Chain,Low (2),4,3,High
+,TS-06 Insider Exfil,Low (2),3,3,Medium
+Network MSP (Third Party),TS-05 Supply Chain,High (4),5,5,Critical
+,TS-06 Insider Exfil,High (4),4,3,High
+,TS-09 CVE Exploit,High (4),4,5,Critical
+IT Operations Staff,TS-02 Phishing/BEC,Medium (3),3,3,Medium
+,TS-06 Insider Exfil,Medium (3),3,3,Medium
+CISO / Security Governance,TS-06 Insider Exfil,Critical (5),4,4,High
+,TS-05 Supply Chain,Critical (5),4,4,High
+Customer PSD2 / Open Banking API,TS-03 SQL Injection,Medium (3),4,3,High
+,TS-13 API Stuffing,Medium (3),4,4,High
+,TS-08 Cloud Misconf,Medium (3),3,3,Medium
+Hardware Security Module (HSM) Cluster,TS-14 HSM Compromise,Low (2),4,3,High
+,TS-05 Supply Chain,Low (2),3,3,Medium
+Email Gateway / Anti-Phishing,TS-02 Phishing/BEC,Medium (3),3,3,Medium
+,TS-05 Supply Chain,Medium (3),3,3,Medium
+"ATM Network (214 units, Diebold Nixdorf)",TS-11 ATM Jackpot,High (4),4,4,High
+,TS-10 Physical,High (4),3,3,Medium
+,TS-12 SIM Swap,Medium (3),3,3,Medium
+Card Management System (Tieto Evry),TS-11 ATM Jackpot,Medium (3),3,3,Medium
+,TS-06 Insider Exfil,Medium (3),3,3,Medium
+,TS-12 SIM Swap,Medium (3),3,3,Medium
+AML/Transaction Monitoring (FICO TONBELLER),TS-15 Internal Fraud,Medium (3),3,3,Medium
+,TS-06 Insider Exfil,Medium (3),3,3,Medium
+,TS-05 Supply Chain,Medium (3),3,3,Medium
+Treasury and ALM Platform (Murex),TS-16 Corp Espionage,Medium (3),4,3,High
+,TS-15 Internal Fraud,Medium (3),3,3,Medium
+,TS-09 CVE Exploit,Medium (3),4,4,High
+Firewall / Perimeter Security (Palo Alto),TS-05 Supply Chain,Medium (3),4,3,High
+,TS-09 CVE Exploit,Medium (3),4,4,High
+,TS-07 DDoS,Medium (3),4,4,High
+Physical Branch Security Systems,TS-10 Physical,Medium (3),3,3,Medium
+,TS-11 ATM Jackpot,Medium (3),3,3,Medium
+Privileged Access Management (PAM) Tool,TS-04 SWIFT Fraud,Critical (5),4,4,High
+,TS-06 Insider Exfil,Critical (5),4,4,High
+,TS-05 Supply Chain,Critical (5),4,4,High
+Electrical Systems (Power Supply / UPS),TS-Power Outage,Medium (3),4,3,High
+,TS-01 Ransomware,Medium (3),3,3,Medium
+,TS-10 Physical,Medium (3),3,3,Medium
+Communication Systems (Telecom/ISP/WAN links),TS-07 DDoS,Medium (3),3,3,Medium
+,TS-05 Supply Chain,Medium (3),3,3,Medium
+,TS-Power Outage,Medium (3),4,3,High
+Data Centre (Milan) — extended assessment,TS-17 Prolonged Power Outage / DC Unavailability,Medium (3),4,3,High
+IT Operations Staff — extended assessment,TS-18 Accidental Admin Error / Misconfiguration,Medium (3),3,3,Medium
